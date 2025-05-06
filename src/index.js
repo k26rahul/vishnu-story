@@ -1,3 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./base.css";
+
 // This is your entry file! Refer to it when you render:
 // npx remotion render <entry-file> HelloWorld out/video.mp4
 
