@@ -44,7 +44,9 @@ export const Story = () => {
   return (
     <AbsoluteFill className="story-root d-flex align-items-center justify-content-center p-4 overflow-hidden text-dark">
       <Audio src={staticFile(STORY_BGM)} volume={0.05} />
-      <Audio src={staticFile(STORY_NARRATION[STORY_LANG].src)} />
+      {STORY_NARRATION[STORY_LANG].src && (
+        <Audio src={staticFile(STORY_NARRATION[STORY_LANG].src)} />
+      )}
       <Img
         src={bgUrl}
         className="story-bg position-absolute w-100 h-100 object-fit-cover"

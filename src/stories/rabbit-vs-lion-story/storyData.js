@@ -10,7 +10,7 @@ export const IMAGE_MAP = {
 };
 
 // Language constant (2-letter ISO 639)
-export const STORY_LANG = "hi"; // "en" | "hi" | "kn"
+export const STORY_LANG = "kn"; // "en" | "hi" | "kn"
 
 export const STORY_BGM = "stories/rabbit-vs-lion-story/narration_bgm.mp3";
 
@@ -18,11 +18,15 @@ export const STORY_BGM = "stories/rabbit-vs-lion-story/narration_bgm.mp3";
 export const STORY_NARRATION = {
   en: {
     src: "stories/rabbit-vs-lion-story/narration_en.mp3",
-    duration: 34,
+    duration: 35,
   },
   hi: {
     src: "stories/rabbit-vs-lion-story/narration_hi.mp3",
-    duration: 36,
+    duration: 37,
+  },
+  kn: {
+    src: "",
+    duration: 39,
   },
 };
 
@@ -105,40 +109,40 @@ export const STORY_LINES_HI = [
 
 export const STORY_LINES_KN = [
   { text: "ಒಂದು ಕಾಡಿತ್ತು.", startAt: 0 },
-  { text: "ಕಾಡಿನ ರಾಜನು ಸಿಂಹ.", startAt: 1.5 },
+  { text: "ಕಾಡಿನ ರಾಜನು ಸಿಂಹ.", startAt: 3 },
   {
     text: "ಸಿಂಹನು ಪ್ರತಿ ದಿನ ಒಂದು ಪ್ರಾಣಿಯನ್ನು ಊಟಕ್ಕೆ ಕರೆದಿಕೊಳ್ಳುತ್ತಿದ್ದ.",
-    startAt: 3.8,
+    startAt: 6,
   },
-  { text: "ಒಂದು ದಿನ ಖರಗೋಶದ ಬಾರಿಗೆ ಬಂತು.", startAt: 7.8 },
-  { text: "ಖರಗೋಶ ಚತುರನಾಗಿತ್ತು.", startAt: 10 },
+  { text: "ಒಂದು ದಿನ ಖರಗೋಶದ ಬಾರಿಗೆ ಬಂತು.", startAt: 9 },
+  { text: "ಖರಗೋಶ ಚತುರನಾಗಿತ್ತು.", startAt: 12 },
   {
     text: "ಅವನ ಬಳಿ ಮತ್ತೊಬ್ಬ ಶಕ್ತಿಶಾಲಿ ಸಿಂಹನಿದ್ದಾನೆ ಎಂದು ಖರಗೋಶನು ತಿಳಿಸಿದ.",
-    startAt: 11.5,
+    startAt: 15,
   },
   {
-    text: "ಸಿಂಹನು ಹೇಳಿದ್ದು, “ಅವನ ಬಳಿ ನನ್ನನ್ನ ಕೊಂಡೊಯಿರಿ.”",
-    startAt: 15.2,
+    text: "ಸಿಂಹನು ಹೇಳಿದ್ದು, ಅವನ ಬಳಿ ನನ್ನನ್ನ ಕೊಂಡೊಯಿರಿ.",
+    startAt: 18,
   },
   {
     text: "ಖರಗೋಶನು ಸಿಂಹನನ್ನು ಬಾವಿಯ ಬಳಿ ಕರೆದುಕೊಂಡು ಹೇಳಿದನು,",
-    startAt: 17.6,
+    startAt: 21,
   },
-  { text: "“ಅವನು ಈ ಬಾವಿಯ ಒಳಗೆ ವಾಸಿಸುತ್ತಾನೆ.”", startAt: 19.8 },
+  { text: "ಅವನು ಈ ಬಾವಿಯ ಒಳಗೆ ವಾಸಿಸುತ್ತಾನೆ.", startAt: 24 },
   {
     text: "ಸಿಂಹನು ಒಳಗೆ ನೋಡಿದಾಗ ತನ್ನ ಪ್ರತಿಬಿಂಬವನ್ನೇ ಕಂಡನು.",
-    startAt: 22,
+    startAt: 27,
   },
   {
     text: "ಅದು ಶತ್ರಿಯಾಗಿಯೆ ಅನಿಸಿ ಹೋರಾಡಲು ಬಾವಿಯಲ್ಲಿ ಹಾರಿದ.",
-    startAt: 25.2,
+    startAt: 30,
   },
-  { text: "ಸಿಂಹ ಬಾವಿಯಲ್ಲಿ ಬೀಳ್ಕೊಂಡು ಸತ್ತುಹೋಯಿತು.", startAt: 28.5 },
+  { text: "ಸಿಂಹ ಬಾವಿಯಲ್ಲಿ ಬೀಳ್ಕೊಂಡು ಸತ್ತುಹೋಯಿತು.", startAt: 33 },
   {
     text: "ಈಗ ಎಲ್ಲಾ ಪ್ರಾಣಿಗಳು ಸಂತೋಷದಿಂದ ಬದುಕಿದರು.",
-    startAt: 30.5,
+    startAt: 36,
   },
-  { text: "ಕಥೆ: ವಿಷ್ಣು", startAt: 33.5 },
+  { text: "ಕಥೆ: ವಿಷ್ಣು", startAt: 39 },
 ];
 
 export const ALL_STORY_LINES = {
