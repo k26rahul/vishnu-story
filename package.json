@@ -7,6 +7,7 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.296",
+    "@remotion/google-fonts": "^4.0.298",
     "bootstrap": "^5.3.6",
     "react": "19.0.0",
     "react-dom": "19.0.0",
